@@ -1,3 +1,4 @@
+import ProductForm from "@/components/ProductForm";
 import ProductList from "../components/ProductList";
 import styled from "styled-components";
 
@@ -15,6 +16,8 @@ export default function HomePage() {
         </span>
         Fish Shop
       </Heading>
+      <ProductForm />
+      <hr />
       <ProductList />
     </>
   );
